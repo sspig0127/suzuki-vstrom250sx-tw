@@ -4,9 +4,14 @@ vehicle: Suzuki V-Strom 250SX(檔車,白牌,已下訂等交車)
 version: 1.1.0
 created: 2026-09-02
 updated: 2026-09-06 13:29 +0800
+author: Alexander Lin
+license: CC BY 4.0
+source: https://github.com/sspig0127/suzuki-vstrom250sx-tw
 ---
 
 # SUZUKI V-Strom 250SX 交車點交檢查清單
+
+> 作者：Alexander Lin｜授權：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh-hant)｜轉載/引用請標註作者與來源：<https://github.com/sspig0127/suzuki-vstrom250sx-tw>
 
 ---
 
