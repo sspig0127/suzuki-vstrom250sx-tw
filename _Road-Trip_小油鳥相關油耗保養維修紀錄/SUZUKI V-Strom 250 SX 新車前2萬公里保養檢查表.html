@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<title>SUZUKI V-Strom 250 SX 新車前2萬公里保養檢查表</title>
+<style>
+  @page { size: A4 portrait; margin: 12mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei",sans-serif;
+    color: #111;
+    margin: 0;
+    padding: 16px;
+  }
+  h1 { font-size: 17px; margin: 0 0 2px 0; }
+  .sub { font-size: 11px; color: #555; margin: 0 0 10px 0; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+  }
+  th, td {
+    border: 1px solid #666;
+    text-align: center;
+    padding: 2px;
+    font-size: 10px;
+  }
+  col.wide { width: 15mm; }
+  col.item { width: 7.6mm; }
+  col.sign { width: 20mm; }
+
+  thead th.item-head {
+    height: 34mm;
+    vertical-align: bottom;
+    padding-bottom: 3px;
+  }
+  thead th.item-head .rot {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    display: inline-block;
+    font-size: 9.5px;
+    line-height: 1.15;
+    white-space: nowrap;
+    max-height: 32mm;
+  }
+  thead th.corner { text-align: left; vertical-align: bottom; font-size: 10px; }
+  thead th.dealer-star { color: #b30000; }
+
+  tbody th {
+    text-align: left;
+    font-size: 9.5px;
+    line-height: 1.25;
+    padding-left: 4px;
+    background: #f7f7f7;
+    white-space: pre-line;
+  }
+  td.due {
+    font-weight: bold;
+  }
+  td.due .code {
+    font-size: 11px;
+  }
+  td.due .box {
+    font-size: 11px;
+    display: block;
+  }
+  td.na { color: #ccc; }
+
+  .legend {
+    margin-top: 8px;
+    font-size: 10px;
+    line-height: 1.6;
+  }
+  .legend b { font-size: 11px; }
+  .star-note { color: #b30000; }
+
+
+  .footnotes table td, .footnotes table th { text-align:left; }
+  .footnotes {
+    margin-top: 6px;
+    font-size: 9.5px;
+    color: #333;
+    line-height: 1.5;
+  }
+
+  .sigblock {
+    margin-top: 14px;
+    font-size: 10.5px;
+  }
+  .sigblock table { margin-top: 4px; }
+  .sigblock td, .sigblock th { font-size: 10px; height: 9mm; }
+
+  .source {
+    margin-top: 10px;
+    font-size: 9px;
+    color: #777;
+  }
+
+  .warranty-note {
+    margin: 8px 0 10px 0;
+    padding: 6px 8px;
+    border: 1px solid #b30000;
+    background: #fff5f5;
+    font-size: 9.5px;
+    line-height: 1.5;
+    color: #333;
+  }
+  .warranty-note b { color: #b30000; }
+  tbody th.warn-edge { background: #ffe9b3; }
+  tbody th.warn-past { background: #ffd6d6; }
+
+  .printbar {
+    margin-bottom: 10px;
+  }
+  .printbar button {
+    font-size: 13px;
+    padding: 6px 14px;
+    cursor: pointer;
+  }
+  @media print {
+    .printbar { display: none; }
+    body { padding: 0; }
+    .footnotes.page2 {
+      break-before: page;
+      page-break-before: always;
+      padding-top: 4px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="printbar">
+  <button onclick="window.print()">🖨️ 列印 / 儲存為 PDF</button>
+</div>
+
+<h1>SUZUKI V-Strom 250 SX　新車前 2 萬公里保養檢查表</h1>
+<p class="sub">依原廠車主手冊「維護表」P.3-6~3-7 整理｜每次回廠完成保養時，於對應「里程/月份」列，把當次已完成的項目格子打勾，並在最右側簽名欄請保養廠簽章確認</p>
+
+<div class="warranty-note">
+  <b>保固提醒（依台鈴機車官方保固條款，非本表保養內容的一部分）：</b>
+  台鈴機車正式保固為「<b>自領牌日起 2 年內、無限里程</b>」（七期機種適用；六期機種為1年內），<b>不是</b>「2年或2萬公里以先到者為準」——里程沒有上限，只看時間。另有「自費維修使用正廠零件」的零件保固為 6個月或6000公里，以先到者為準（適用範圍不同，非新車保固）。
+  官方明文<b>保固不涵蓋消耗品</b>：機油、燃料、蓄電池、燈泡、導線、火星塞、煞車塊(皮)、V型皮帶、鏈條、空氣濾芯等，以及檢查、清洗、保養等費用——這些項目不論在不在保固期內都需自費，跟本表的保養排程無關。下方表格中標示 <span style="background:#e0e0e0;padding:0 2px;">⊘</span> 的欄位即為官方保固條款明列排除的消耗品。
+  下方表格列標題中，<span style="background:#ffe9b3;padding:0 3px;">橘底</span>（10,000km/24個月）為 2 年保固到期的時間邊界；<span style="background:#ffd6d6;padding:0 3px;">紅底</span>（15,000km/36個月、20,000km/48個月）已確定超過 2 年保固期限——若當次順便發現非保養類異常（非消耗品瑕疵/故障），已不在新車保固範圍內。
+</div>
+
+<table>
+  <colgroup>
+    <col class="wide"><col class="wide">
+    <col class="item"><col class="item"><col class="item"><col class="item"><col class="item">
+    <col class="item"><col class="item"><col class="item"><col class="item"><col class="item">
+    <col class="item"><col class="item"><col class="item"><col class="item"><col class="item">
+    <col class="item"><col class="item"><col class="item"><col class="item"><col class="item">
+    <col class="sign">
+  </colgroup>
+  <thead>
+    <tr>
+      <th class="corner" colspan="2">里程 / 月份</th>
+      <th class="item-head"><span class="rot">空氣濾芯元件⊘</span></th>
+      <th class="item-head dealer-star"><span class="rot">排氣管/消音器螺栓＊</span></th>
+      <th class="item-head dealer-star"><span class="rot">汽門間隙＊</span></th>
+      <th class="item-head"><span class="rot">火星塞⊘</span></th>
+      <th class="item-head"><span class="rot">燃油軟管①</span></th>
+      <th class="item-head dealer-star"><span class="rot">蒸發排放控制系統＊</span></th>
+      <th class="item-head"><span class="rot">機油⊘</span></th>
+      <th class="item-head"><span class="rot">機油濾清器</span></th>
+      <th class="item-head"><span class="rot">節流閥拉索遊隙</span></th>
+      <th class="item-head"><span class="rot">離合器拉索</span></th>
+      <th class="item-head"><span class="rot">傳動鏈⊘②</span></th>
+      <th class="item-head dealer-star"><span class="rot">煞車系統＊⊘</span></th>
+      <th class="item-head"><span class="rot">煞車油③</span></th>
+      <th class="item-head"><span class="rot">煞車油壓管④</span></th>
+      <th class="item-head"><span class="rot">輪胎狀況</span></th>
+      <th class="item-head dealer-star"><span class="rot">轉向系統(把手軸承)＊</span></th>
+      <th class="item-head dealer-star"><span class="rot">前叉＊</span></th>
+      <th class="item-head dealer-star"><span class="rot">後懸吊＊</span></th>
+      <th class="item-head"><span class="rot">底盤螺栓螺帽</span></th>
+      <th class="item-head"><span class="rot">全車潤滑⑤</span></th>
+      <th rowspan="2">保養廠簽名 / 日期</th>
+    </tr>
+    <tr>
+      <th>實際日期</th>
+      <th>實際里程</th>
+      <th colspan="20" style="border:none;"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1,000 km<br>2 個月</th>
+      <th></th>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">緊</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="na">－</td>
+      <td class="na">－</td>
+      <td class="na">－</td>
+      <td class="due"><span class="code">換</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">換</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="na">－</td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="na">－</td>
+      <td class="na">－</td>
+      <td class="na">－</td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="na">－</td>
+      <td class="na">－</td>
+      <td class="due"><span class="code">緊</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">潤</span><span class="box">☐</span></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>5,000 km<br>12 個月</th>
+      <th></th>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="na">－</td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="na">－</td>
+      <td class="due"><span class="code">換</span><span class="box">☐</span></td>
+      <td class="na">－</td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="na">－</td>
+      <td class="na">－</td>
+      <td class="na">－</td>
+      <td class="due"><span class="code">緊</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">潤</span><span class="box">☐</span></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th class="warn-edge">10,000 km<br>24 個月</th>
+      <th></th>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">緊</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">換</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">換</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">換</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">換</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">緊</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">潤</span><span class="box">☐</span></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th class="warn-past">15,000 km<br>36 個月</th>
+      <th></th>
+      <td class="due"><span class="code">換</span><span class="box">☐</span></td>
+      <td class="na">－</td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="na">－</td>
+      <td class="due"><span class="code">換</span><span class="box">☐</span></td>
+      <td class="na">－</td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="na">－</td>
+      <td class="na">－</td>
+      <td class="na">－</td>
+      <td class="due"><span class="code">緊</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">潤</span><span class="box">☐</span></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th class="warn-past">20,000 km<br>48 個月</th>
+      <th></th>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">緊</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">換</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">換</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">換</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">換</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">換</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">換</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">檢</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">緊</span><span class="box">☐</span></td>
+      <td class="due"><span class="code">潤</span><span class="box">☐</span></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="legend">
+  <b>代號說明：</b>　檢＝檢查／清潔／調整或必要時潤滑　｜　換＝更換　｜　緊＝鎖緊確認　｜　潤＝潤滑　｜　－＝該週期不需執行
+  <br><span class="star-note">標＊的項目（紅色欄名）為原廠手冊註明須由鈴木經銷商或合格技師執行，不建議自行操作。標⊘的項目為台鈴官方保固條款明列排除的消耗品，不論在不在保固期內都需自費。</span>
+</div>
+
+<div class="footnotes">
+  <b>註解說明（手冊原文頁碼標於各條後方）：</b>
+  <ol style="margin:4px 0 0 18px; padding:0;">
+    <li>① 燃油軟管：不論里程，<b>每4年更換一次</b>，恰好落在本表 20,000km/48個月的檢查點上，該格已標示為「換」（車主手冊 P.3-41）。</li>
+    <li>② 傳動鏈：除本表列出的5個檢查點需檢查外，原廠建議<b>每1,000公里</b>另外清潔並上鏈條油一次，比檢查點更密集，需自行安排（車主手冊 P.3-42）。</li>
+    <li>③ 煞車油（原文「制動液」，改用台灣慣用譯名）：不論里程，<b>每2年更換一次</b>，落在 10,000km/24個月與 20,000km/48個月兩個檢查點上，該兩格已標示為「換」（車主手冊 P.3-48）。</li>
+    <li>④ 煞車油壓管（原文「制動軟管」，改用台灣慣用譯名）：不論里程，<b>每4年更換一次</b>，恰好落在本表 20,000km/48個月的檢查點上，該格已標示為「換」（車主手冊 P.3-47）。</li>
+    <li>⑤ 全車潤滑：原廠建議<b>每1,000公里</b>潤滑一次，比本表列出的5個檢查點更密集，需自行安排（車主手冊 P.3-11）。</li>
+  </ol>
+  <div style="margin-top:6px;">若你的實際交車月份跟本表基準（新車起算日）不同，①③④這幾個以「時間」到期的「換」，請自行對照你實際的交車日期重新推算對應月份，不要直接套用表格的公里數判斷。</div>
+</div>
+
+<div class="sigblock">
+  <b>總結簽核（2萬公里/首次大保養結束後）</b>
+  <table>
+    <tr><th style="width:30%">車主簽名</th><td style="width:20%"></td><th style="width:20%">保養廠章戳</th><td></td></tr>
+  </table>
+</div>
+
+<div class="source">
+  資料來源：《V-Strom 250 SX 車主手冊》繁體中文版（P.3-6~3-7 維護表），台鈴機車官網下載檔（已比對 SHA256 雜湊值逐位元組相同，確認為台鈴官方正式提供的下載檔）。內容翻譯用詞有少部分偏中國大陸/印度鈴木原廠版本用語，非台灣在地團隊重新校對文字，僅供參考，實際保養規範請以隨車手冊或台灣經銷商公告為準。
+</div>
+
+<div class="warranty-note" style="margin-top:10px; display:flex; align-items:center; gap:12px;">
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPgAAAD4AQMAAAD7H7lIAAAABlBMVEUAAAD///+l2Z/dAAAAAnRSTlP//8i138cAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAECSURBVFiF5ZVBDgMxCAP9/0+7UjAO21b7AEwPiRjSg4W94HthPUfVOatx+t3dz69ONXDmupvASwddiUc3iNMHUnkTRnH5A7Qv/vpnKx9JOH6/+bmUd52t8H7wodNmDrDzkZ0Sd2sC+NQKpZKfZfC+TqFarfW8x9A2Qan0/TdreeOaAMd4BteGyBa2iL8Py7mvWgiLBSZwqzT8YLUCOL0JmKN2ynZuh9QBiUMMxVZzm4SKhfkogQsrIzwG6EuxnquM3EvgXXYGtB5wSKzmUyqPyS8RnOxovMvhzEzgkB63P/wSxNsldy0QxFuW4RFk8JsTQiyk19v5NYO0okViAH+v7fwDISR4aSRCawQAAAAASUVORK5CYII=" width="72" height="72" style="flex-shrink:0;">
+  <div>
+    <b>官方保固條款重點摘要（台鈴機車）：</b><br>
+    ・新車保固：<b>自領牌日起 2 年內，無限里程</b>（七期機種；六期機種為 1 年內）<br>
+    ・自費維修正廠零件：另享 6 個月或 6,000 公里保固，以先到者為準<br>
+    ・保固<b>不含</b>消耗品：機油、燃料、蓄電池、燈泡、導線、火星塞、煞車塊(皮)、V型皮帶、鏈條、空氣濾芯等，及檢查/清洗/保養等費用<br>
+    完整條款：<a href="https://www.suzukimotor.com.tw/terms_l.html">https://www.suzukimotor.com.tw/terms_l.html</a>（掃左側 QR Code 開啟）
+  </div>
+</div>
+
+<div class="warranty-note" style="margin-top:8px; display:flex; align-items:center; gap:12px;">
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAAEYAQMAAAC9QHvPAAAABlBMVEUAAAD///+l2Z/dAAAAAnRSTlP//8i138cAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAE9SURBVGiB7ZZBDgIxDAP9/08H1NhOdjnwALfLopJOL6M4AvV/IZpBr+8WvNPvnIQzdgme1OJVTWba03yI+OQydtfnp4DLvJk56VBe5jzMIKY2s6ousyb16/mZ84nMWt1XPaLwKAczZza9dZ7CnuW5zOagMCp61pnLaDoVJdIsf9ZlpNECAdF4OM5kShXbO6cuIJyRJT17Tl1GjSVn01uWGs6wq+hLt6aMyyiIih7GpR3GMoTMKoNSiHSGHufIP8r/B5IZzDfmFhmlMpgpTie/z/GezsjkGktnf27iMowcbUIhrCmnM6UYrm7zrKp4Bnan9PGeey6a0Rp3i22V0QzAsBFasHsvmqFB1dtcN5zGVDYDuNcmmTVqL0NmtRrx3l2mVC23HflCPFNr90gkxmEws8KG3W5gGMOZ/yuZ+QBIHeQ1WuFyxwAAAABJRU5ErkJggg==" width="72" height="72" style="flex-shrink:0;">
+  <div>
+    <b>官方原廠車主手冊下載：</b><br>
+    台鈴機車官網《V-Strom 250 SX 車主手冊》PDF（本表週期資料來源，P.3-6~3-7 維護表）：<br>
+    <a href="https://www.suzukimotor.com.tw/images/download/manual/manual_v-strom250sx.pdf">https://www.suzukimotor.com.tw/images/download/manual/manual_v-strom250sx.pdf</a>（掃左側 QR Code 開啟）
+  </div>
+</div>
+
+<div class="footnotes page2">
+  <b>中英日對照表</b>（英文核對自 SUZUKI PHILIPPINES 版《Owner's Manual》P.3-6~3-7「MAINTENANCE CHART」，逐項確認一致；日文核對自 20L30 日文版車主手冊各章節零件名稱，該版無內嵌完整週期對照表，故僅列出有在文中確認到的日文名稱，未確認到的以「－」標示，不臆測填入）：
+  <table style="margin-top:4px; font-size:9px; table-layout:auto;">
+    <tr><th style="text-align:left;">中文</th><th style="text-align:left;">English</th><th style="text-align:left;">日本語</th></tr>
+    <tr><td>空氣濾芯元件</td><td>Air Cleaner Element</td><td>エアクリーナエレメント</td></tr>
+    <tr><td>排氣管/消音器安裝螺栓</td><td>Exhaust Pipe Bolts and Muffler Mounting Bolts</td><td>－</td></tr>
+    <tr><td>汽門間隙</td><td>Valve Clearance</td><td>－</td></tr>
+    <tr><td>火星塞</td><td>Spark Plug</td><td>スパークプラグ</td></tr>
+    <tr><td>燃油軟管</td><td>Fuel Hose</td><td>－</td></tr>
+    <tr><td>蒸發排放控制系統</td><td>Evaporative Emission Control System</td><td>－</td></tr>
+    <tr><td>機油</td><td>Engine Oil</td><td>エンジンオイル</td></tr>
+    <tr><td>機油濾清器</td><td>Engine Oil Filter</td><td>エンジンオイルフィルタ</td></tr>
+    <tr><td>節流閥拉索遊隙</td><td>Throttle Cable Play</td><td>スロットルケーブル</td></tr>
+    <tr><td>離合器拉索</td><td>Clutch Cable Play</td><td>クラッチケーブル</td></tr>
+    <tr><td>傳動鏈</td><td>Drive Chain</td><td>ドライブチェーン</td></tr>
+    <tr><td>煞車系統</td><td>Brakes</td><td>ブレーキ</td></tr>
+    <tr><td>煞車油</td><td>Brake Fluid</td><td>ブレーキ液</td></tr>
+    <tr><td>煞車油壓管</td><td>Brake Hose</td><td>ブレーキホース</td></tr>
+    <tr><td>輪胎狀況</td><td>Tyres</td><td>タイヤ</td></tr>
+    <tr><td>轉向系統(把手軸承)</td><td>Steering</td><td>－</td></tr>
+    <tr><td>前叉</td><td>Front Forks</td><td>フロントフォーク</td></tr>
+    <tr><td>後懸吊</td><td>Rear Suspension</td><td>リヤサスペンション</td></tr>
+    <tr><td>底盤螺栓螺帽</td><td>Chassis Bolts and Nuts</td><td>－</td></tr>
+    <tr><td>全車潤滑</td><td>Lubrication</td><td>注油</td></tr>
+  </table>
+</div>
+
+</body>
+</html>
