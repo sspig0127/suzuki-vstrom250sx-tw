@@ -95,6 +95,23 @@
     line-height: 1.5;
   }
 
+  .footnotes-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-top: 6px;
+  }
+  .footnotes-row .footnotes {
+    margin-top: 0;
+    flex: 1 1 56%;
+    min-width: 0;
+  }
+  .footnotes-row .warranty-note {
+    margin: 0;
+    flex: 1 1 44%;
+    min-width: 0;
+  }
+
   .sigblock {
     margin-top: 14px;
     font-size: 10.5px;
@@ -330,16 +347,29 @@
   <br><span class="star-note">標＊的項目（紅色欄名）為原廠手冊註明須由鈴木經銷商或合格技師執行，不建議自行操作。標⊘的項目為台鈴官方保固條款明列排除的消耗品，不論在不在保固期內都需自費。</span>
 </div>
 
-<div class="footnotes">
-  <b>註解說明（手冊原文頁碼標於各條後方）：</b>
-  <ol style="margin:4px 0 0 18px; padding:0;">
-    <li>① 燃油軟管：不論里程，<b>每4年更換一次</b>，恰好落在本表 20,000km/48個月的檢查點上，該格已標示為「換」（車主手冊 P.3-41）。</li>
-    <li>② 傳動鏈：除本表列出的5個檢查點需檢查外，原廠建議<b>每1,000公里</b>另外清潔並上鏈條油一次，比檢查點更密集，需自行安排（車主手冊 P.3-42）。</li>
-    <li>③ 煞車油（原文「制動液」，改用台灣慣用譯名）：不論里程，<b>每2年更換一次</b>，落在 10,000km/24個月與 20,000km/48個月兩個檢查點上，該兩格已標示為「換」（車主手冊 P.3-48）。</li>
-    <li>④ 煞車油壓管（原文「制動軟管」，改用台灣慣用譯名）：不論里程，<b>每4年更換一次</b>，恰好落在本表 20,000km/48個月的檢查點上，該格已標示為「換」（車主手冊 P.3-47）。</li>
-    <li>⑤ 全車潤滑：原廠建議<b>每1,000公里</b>潤滑一次，比本表列出的5個檢查點更密集，需自行安排（車主手冊 P.3-11）。</li>
-  </ol>
-  <div style="margin-top:6px;">若你的實際交車月份跟本表基準（新車起算日）不同，①③④這幾個以「時間」到期的「換」，請自行對照你實際的交車日期重新推算對應月份，不要直接套用表格的公里數判斷。</div>
+<div class="footnotes-row">
+  <div class="footnotes">
+    <b>註解說明（手冊原文頁碼標於各條後方）：</b>
+    <ol style="margin:4px 0 0 16px; padding:0;">
+      <li>① 燃油軟管：不論里程，<b>每4年更換一次</b>，恰好落在本表 20,000km/48個月的檢查點上，該格已標示為「換」（車主手冊 P.3-41）。</li>
+      <li>② 傳動鏈：除本表列出的5個檢查點需檢查外，原廠建議<b>每1,000公里</b>另外清潔並上鏈條油一次，比檢查點更密集，需自行安排（車主手冊 P.3-42）。</li>
+      <li>③ 煞車油（原文「制動液」，改用台灣慣用譯名）：不論里程，<b>每2年更換一次</b>，落在 10,000km/24個月與 20,000km/48個月兩個檢查點上，該兩格已標示為「換」（車主手冊 P.3-48）。</li>
+      <li>④ 煞車油壓管（原文「制動軟管」，改用台灣慣用譯名）：不論里程，<b>每4年更換一次</b>，恰好落在本表 20,000km/48個月的檢查點上，該格已標示為「換」（車主手冊 P.3-47）。</li>
+      <li>⑤ 全車潤滑：原廠建議<b>每1,000公里</b>潤滑一次，比本表列出的5個檢查點更密集，需自行安排（車主手冊 P.3-11）。</li>
+    </ol>
+    <div style="margin-top:6px;">若你的實際交車月份跟本表基準（新車起算日）不同，①③④這幾個以「時間」到期的「換」，請自行對照你實際的交車日期重新推算對應月份，不要直接套用表格的公里數判斷。</div>
+  </div>
+
+  <div class="warranty-note" style="display:flex; align-items:center; gap:8px;">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPgAAAD4AQMAAAD7H7lIAAAABlBMVEUAAAD///+l2Z/dAAAAAnRSTlP//8i138cAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAECSURBVFiF5ZVBDgMxCAP9/0+7UjAO21b7AEwPiRjSg4W94HthPUfVOatx+t3dz69ONXDmupvASwddiUc3iNMHUnkTRnH5A7Qv/vpnKx9JOH6/+bmUd52t8H7wodNmDrDzkZ0Sd2sC+NQKpZKfZfC+TqFarfW8x9A2Qan0/TdreeOaAMd4BteGyBa2iL8Py7mvWgiLBSZwqzT8YLUCOL0JmKN2ynZuh9QBiUMMxVZzm4SKhfkogQsrIzwG6EuxnquM3EvgXXYGtB5wSKzmUyqPyS8RnOxovMvhzEzgkB63P/wSxNsldy0QxFuW4RFk8JsTQiyk19v5NYO0okViAH+v7fwDISR4aSRCawQAAAAASUVORK5CYII=" width="52" height="52" style="flex-shrink:0;">
+    <div>
+      <b>官方保固條款重點摘要（台鈴機車）：</b><br>
+      ・新車保固：<b>自領牌日起 2 年內，無限里程</b>（七期機種；六期機種為 1 年內）<br>
+      ・自費維修正廠零件：另享 6 個月或 6,000 公里保固，以先到者為準<br>
+      ・保固<b>不含</b>消耗品：機油、燃料、蓄電池、燈泡、導線、火星塞、煞車塊(皮)、V型皮帶、鏈條、空氣濾芯等，及檢查/清洗/保養等費用<br>
+      完整條款：<a href="https://www.suzukimotor.com.tw/terms_l.html">https://www.suzukimotor.com.tw/terms_l.html</a>（掃左側 QR Code 開啟）
+    </div>
+  </div>
 </div>
 
 <div class="sigblock">
@@ -352,17 +382,6 @@
 <div class="source">
   資料來源：《V-Strom 250 SX 車主手冊》繁體中文版（P.3-6~3-7 維護表），台鈴機車官網下載檔（已比對 SHA256 雜湊值逐位元組相同，確認為台鈴官方正式提供的下載檔）。內容翻譯用詞有少部分偏中國大陸/印度鈴木原廠版本用語，非台灣在地團隊重新校對文字，僅供參考，實際保養規範請以隨車手冊或台灣經銷商公告為準。
   <br>整理製作：Alexander Lin｜授權：<a href="https://creativecommons.org/licenses/by/4.0/deed.zh-hant">CC BY 4.0</a>｜轉載/引用請標註作者與來源：<a href="https://github.com/sspig0127/suzuki-vstrom250sx-tw">https://github.com/sspig0127/suzuki-vstrom250sx-tw</a>
-</div>
-
-<div class="warranty-note" style="margin-top:10px; display:flex; align-items:center; gap:12px;">
-  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPgAAAD4AQMAAAD7H7lIAAAABlBMVEUAAAD///+l2Z/dAAAAAnRSTlP//8i138cAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAECSURBVFiF5ZVBDgMxCAP9/0+7UjAO21b7AEwPiRjSg4W94HthPUfVOatx+t3dz69ONXDmupvASwddiUc3iNMHUnkTRnH5A7Qv/vpnKx9JOH6/+bmUd52t8H7wodNmDrDzkZ0Sd2sC+NQKpZKfZfC+TqFarfW8x9A2Qan0/TdreeOaAMd4BteGyBa2iL8Py7mvWgiLBSZwqzT8YLUCOL0JmKN2ynZuh9QBiUMMxVZzm4SKhfkogQsrIzwG6EuxnquM3EvgXXYGtB5wSKzmUyqPyS8RnOxovMvhzEzgkB63P/wSxNsldy0QxFuW4RFk8JsTQiyk19v5NYO0okViAH+v7fwDISR4aSRCawQAAAAASUVORK5CYII=" width="72" height="72" style="flex-shrink:0;">
-  <div>
-    <b>官方保固條款重點摘要（台鈴機車）：</b><br>
-    ・新車保固：<b>自領牌日起 2 年內，無限里程</b>（七期機種；六期機種為 1 年內）<br>
-    ・自費維修正廠零件：另享 6 個月或 6,000 公里保固，以先到者為準<br>
-    ・保固<b>不含</b>消耗品：機油、燃料、蓄電池、燈泡、導線、火星塞、煞車塊(皮)、V型皮帶、鏈條、空氣濾芯等，及檢查/清洗/保養等費用<br>
-    完整條款：<a href="https://www.suzukimotor.com.tw/terms_l.html">https://www.suzukimotor.com.tw/terms_l.html</a>（掃左側 QR Code 開啟）
-  </div>
 </div>
 
 <div class="warranty-note" style="margin-top:8px; display:flex; align-items:center; gap:12px;">
