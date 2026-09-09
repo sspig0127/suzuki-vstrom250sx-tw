@@ -12,7 +12,9 @@
     margin: 0;
     padding: 16px;
   }
+  .title-row { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
   h1 { font-size: 18px; margin: 0 0 2px 0; }
+  .doc-meta { font-size: 9px; color: #888; white-space: nowrap; }
   .sub { font-size: 11.5px; color: #555; margin: 0 0 10px 0; }
   table {
     border-collapse: collapse;
@@ -165,7 +167,10 @@
   <button onclick="window.print()">🖨️ 列印 / 儲存為 PDF</button>
 </div>
 
-<h1>SUZUKI V-Strom 250 SX　新車前 2 萬公里保養檢查表</h1>
+<div class="title-row">
+  <h1>SUZUKI V-Strom 250 SX　新車前 2 萬公里保養檢查表</h1>
+  <span class="doc-meta">版本 v1.9｜修訂日期 2026-09-09</span>
+</div>
 <p class="sub">依原廠車主手冊「維護表」P.3-6~3-7 整理｜每次回廠完成保養時，於對應「里程/月份」列，把當次已完成的項目格子打勾，並在最右側簽名欄請保養廠簽章確認</p>
 
 <div class="warranty-note">
