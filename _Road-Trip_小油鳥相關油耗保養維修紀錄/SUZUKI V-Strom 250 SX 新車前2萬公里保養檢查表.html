@@ -98,17 +98,17 @@
   .footnotes-row {
     display: flex;
     align-items: flex-start;
-    gap: 12px;
+    gap: 14px;
     margin-top: 6px;
   }
   .footnotes-row .footnotes {
     margin-top: 0;
-    flex: 1 1 56%;
+    flex: 1 1 62%;
     min-width: 0;
   }
-  .footnotes-row .warranty-note {
-    margin: 0;
-    flex: 1 1 44%;
+  .footnotes-row .sigblock {
+    margin-top: 0;
+    flex: 1 1 34%;
     min-width: 0;
   }
 
@@ -116,8 +116,9 @@
     margin-top: 14px;
     font-size: 10.5px;
   }
-  .sigblock table { margin-top: 4px; }
-  .sigblock td, .sigblock th { font-size: 10px; height: 9mm; }
+  .sigblock table { margin-top: 4px; width: 100%; }
+  .sigblock table th { text-align:left; }
+  .sigblock td, .sigblock th { font-size: 10px; height: 13mm; }
 
   .source {
     margin-top: 10px;
@@ -360,28 +361,29 @@
     <div style="margin-top:6px;">若你的實際交車月份跟本表基準（新車起算日）不同，①③④這幾個以「時間」到期的「換」，請自行對照你實際的交車日期重新推算對應月份，不要直接套用表格的公里數判斷。</div>
   </div>
 
-  <div class="warranty-note" style="display:flex; align-items:center; gap:8px;">
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPgAAAD4AQMAAAD7H7lIAAAABlBMVEUAAAD///+l2Z/dAAAAAnRSTlP//8i138cAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAECSURBVFiF5ZVBDgMxCAP9/0+7UjAO21b7AEwPiRjSg4W94HthPUfVOatx+t3dz69ONXDmupvASwddiUc3iNMHUnkTRnH5A7Qv/vpnKx9JOH6/+bmUd52t8H7wodNmDrDzkZ0Sd2sC+NQKpZKfZfC+TqFarfW8x9A2Qan0/TdreeOaAMd4BteGyBa2iL8Py7mvWgiLBSZwqzT8YLUCOL0JmKN2ynZuh9QBiUMMxVZzm4SKhfkogQsrIzwG6EuxnquM3EvgXXYGtB5wSKzmUyqPyS8RnOxovMvhzEzgkB63P/wSxNsldy0QxFuW4RFk8JsTQiyk19v5NYO0okViAH+v7fwDISR4aSRCawQAAAAASUVORK5CYII=" width="52" height="52" style="flex-shrink:0;">
-    <div>
-      <b>官方保固條款重點摘要（台鈴機車）：</b><br>
-      ・新車保固：<b>自領牌日起 2 年內，無限里程</b>（七期機種；六期機種為 1 年內）<br>
-      ・自費維修正廠零件：另享 6 個月或 6,000 公里保固，以先到者為準<br>
-      ・保固<b>不含</b>消耗品：機油、燃料、蓄電池、燈泡、導線、火星塞、煞車塊(皮)、V型皮帶、鏈條、空氣濾芯等，及檢查/清洗/保養等費用<br>
-      完整條款：<a href="https://www.suzukimotor.com.tw/terms_l.html">https://www.suzukimotor.com.tw/terms_l.html</a>（掃左側 QR Code 開啟）
-    </div>
+  <div class="sigblock">
+    <b>總結簽核（2萬公里/首次大保養結束後）</b>
+    <table>
+      <tr><th style="width:38%">車主簽名</th><td></td></tr>
+      <tr><th style="width:38%">保養廠章戳</th><td></td></tr>
+    </table>
   </div>
-</div>
-
-<div class="sigblock">
-  <b>總結簽核（2萬公里/首次大保養結束後）</b>
-  <table>
-    <tr><th style="width:30%">車主簽名</th><td style="width:20%"></td><th style="width:20%">保養廠章戳</th><td></td></tr>
-  </table>
 </div>
 
 <div class="source">
   資料來源：《V-Strom 250 SX 車主手冊》繁體中文版（P.3-6~3-7 維護表），台鈴機車官網下載檔（已比對 SHA256 雜湊值逐位元組相同，確認為台鈴官方正式提供的下載檔）。內容翻譯用詞有少部分偏中國大陸/印度鈴木原廠版本用語，非台灣在地團隊重新校對文字，僅供參考，實際保養規範請以隨車手冊或台灣經銷商公告為準。
   <br>整理製作：Alexander Lin｜授權：<a href="https://creativecommons.org/licenses/by/4.0/deed.zh-hant">CC BY 4.0</a>｜轉載/引用請標註作者與來源：<a href="https://github.com/sspig0127/suzuki-vstrom250sx-tw">https://github.com/sspig0127/suzuki-vstrom250sx-tw</a>
+</div>
+
+<div class="warranty-note" style="margin-top:10px; display:flex; align-items:center; gap:12px;">
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPgAAAD4AQMAAAD7H7lIAAAABlBMVEUAAAD///+l2Z/dAAAAAnRSTlP//8i138cAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAECSURBVFiF5ZVBDgMxCAP9/0+7UjAO21b7AEwPiRjSg4W94HthPUfVOatx+t3dz69ONXDmupvASwddiUc3iNMHUnkTRnH5A7Qv/vpnKx9JOH6/+bmUd52t8H7wodNmDrDzkZ0Sd2sC+NQKpZKfZfC+TqFarfW8x9A2Qan0/TdreeOaAMd4BteGyBa2iL8Py7mvWgiLBSZwqzT8YLUCOL0JmKN2ynZuh9QBiUMMxVZzm4SKhfkogQsrIzwG6EuxnquM3EvgXXYGtB5wSKzmUyqPyS8RnOxovMvhzEzgkB63P/wSxNsldy0QxFuW4RFk8JsTQiyk19v5NYO0okViAH+v7fwDISR4aSRCawQAAAAASUVORK5CYII=" width="72" height="72" style="flex-shrink:0;">
+  <div>
+    <b>官方保固條款重點摘要（台鈴機車）：</b><br>
+    ・新車保固：<b>自領牌日起 2 年內，無限里程</b>（七期機種；六期機種為 1 年內）<br>
+    ・自費維修正廠零件：另享 6 個月或 6,000 公里保固，以先到者為準<br>
+    ・保固<b>不含</b>消耗品：機油、燃料、蓄電池、燈泡、導線、火星塞、煞車塊(皮)、V型皮帶、鏈條、空氣濾芯等，及檢查/清洗/保養等費用<br>
+    完整條款：<a href="https://www.suzukimotor.com.tw/terms_l.html">https://www.suzukimotor.com.tw/terms_l.html</a>（掃左側 QR Code 開啟）
+  </div>
 </div>
 
 <div class="warranty-note" style="margin-top:8px; display:flex; align-items:center; gap:12px;">
